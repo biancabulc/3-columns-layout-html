@@ -1,0 +1,33 @@
+.header {
+    background-color: deepskyblue;
+}
+
+.content-wrapper {
+    height: 100px;
+}
+
+.content-wrapper .sidebar-left {
+    background-color: darksalmon;
+    float: left;
+    height:100%;
+    width:30%;
+}
+
+.content-wrapper .content-main {
+    background-color: lightpink;
+    float: left;
+    height:100%;
+    width:40%;
+}
+
+.content-wrapper .sidebar-right {
+    background-color: deeppink;
+    float: right;
+    height:100%;
+    width:60%;
+}
+
+.footer {
+    background-color: lightsalmon;
+    clear: both;
+}
