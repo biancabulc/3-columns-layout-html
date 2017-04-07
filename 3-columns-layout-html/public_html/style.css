@@ -1,5 +1,13 @@
+html,body{
+    height:100%;
+    background-image:url("http://wallpapercave.com/wp/2p8EA65.jpg");
+    background-size:cover;
+    
+}
+
+
 .header {
-    background-color: deepskyblue;
+  
 }
 
 .content-wrapper {
@@ -7,27 +15,29 @@
 }
 
 .content-wrapper .sidebar-left {
-    background-color: darksalmon;
     float: left;
     height:100%;
-    width:30%;
+    width:5%;
 }
 
 .content-wrapper .content-main {
-    background-color: lightpink;
     float: left;
     height:100%;
-    width:40%;
+    width:80%;
 }
 
 .content-wrapper .sidebar-right {
-    background-color: deeppink;
     float: right;
     height:100%;
-    width:60%;
+    width:10%;
 }
 
 .footer {
-    background-color: lightsalmon;
+   
     clear: both;
+}
+
+img{
+    width:100px;
+    heigth:80px;
 }
